@@ -6728,6 +6728,17 @@ button.close {
   background: #5a6384 url('../img/camuflage-bg.jpg') 50px 0 repeat-x;
   border-top: 8px solid #000;
 }
+.apron-alert {
+  position: absolute;
+  width: 100%;
+  top: -30px;
+  font-size: 24px;
+  border-top: none;
+  z-index: 9999;
+}
+.apron-alert .close {
+  font-size: 24px;
+}
 .price {
   font-size: 40px;
   font-weight: 500;
@@ -6894,6 +6905,12 @@ button.close {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.request .error {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
 }
 .apron-footer {
   padding: 30px 0;
