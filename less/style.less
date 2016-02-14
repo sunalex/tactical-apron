@@ -89,19 +89,12 @@
   .rotate(15deg);
 }
 
-.circle {
-  background: #000;
-  width: 175px;
-  height: 175px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
 .video {
   .camuflage;
-  height: 300px;
+
+  .youtube {
+    margin: 30px auto;
+  }
 }
 
 .features {
@@ -126,6 +119,41 @@
     text-align: center;
     margin: 20px 0 50px 0;
   }
+
+  @ji-img-path: "../img/";
+
+  .ji (@icons-array, @file, @icon-width, @icon-height) {
+
+    .ji-pos();
+    .ji-pos(@i: length(@icons-array)) when (@i > 0) {
+      .ji-pos((@i - 1));
+
+      @value: extract(@icons-array, @i);
+      .@{value} {
+        display: block;
+        position: relative;
+        background-image: url('@{ji-img-path}@{file}');
+        background-position: 0 (-(@icon-height) * (@i - 1));
+        width: @icon-width;
+        height: @icon-height;
+        margin: 0 auto;
+      }
+    }
+
+  }
+
+  @ji-sprite-features:
+  cordura,
+  findings,
+  size,
+  velcro,
+  hydrator,
+  armor,
+  molle,
+  holster,
+  ladle;
+
+  .ji (@ji-sprite-features, "features-sprite.jpg", 173px, 173px);
 }
 
 .terms {

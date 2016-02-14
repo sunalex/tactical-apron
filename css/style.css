@@ -6805,19 +6805,12 @@ button.close {
   -o-transform: rotate(15deg);
   transform: rotate(15deg);
 }
-.circle {
-  background: #000;
-  width: 175px;
-  height: 175px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  margin: 0 auto;
-}
 .video {
   background: #5a6384 url('../img/camuflage-bg.jpg') 50px 0 repeat-x;
   border-top: 8px solid #000;
-  height: 300px;
+}
+.video .youtube {
+  margin: 30px auto;
 }
 .features {
   margin-top: 50px;
@@ -6838,6 +6831,87 @@ button.close {
   font-weight: 700;
   text-align: center;
   margin: 20px 0 50px 0;
+}
+.features .cordura {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 0px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .findings {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -173px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .size {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -346px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .velcro {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -519px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .hydrator {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -692px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .armor {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -865px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .molle {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -1038px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .holster {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -1211px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
+}
+.features .ladle {
+  display: block;
+  position: relative;
+  background-image: url('../img/features-sprite.jpg');
+  background-position: 0 -1384px;
+  width: 173px;
+  height: 173px;
+  margin: 0 auto;
 }
 .terms {
   margin: 30px 0 120px 0;
