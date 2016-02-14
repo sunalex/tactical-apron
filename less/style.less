@@ -302,3 +302,32 @@
   }
 }
 
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  .apron-header .main-photo {
+      left: -150px;
+  }
+
+}
+
+@media (max-width: @screen-xs-max) {
+  .apron-header {
+    min-height: 500px;
+    .main-photo {
+      display: none;
+    }
+  }
+
+  .terms {
+    margin-bottom: 30px;
+    .body {
+      min-height: 200px;
+    }
+  }
+
+  .request .promo {
+    position: relative;
+  }
+}
+
+

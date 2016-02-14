@@ -7037,3 +7037,25 @@ button.close {
   margin-top: 20px;
   color: #6f6f6f;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .apron-header .main-photo {
+    left: -150px;
+  }
+}
+@media (max-width: 767px) {
+  .apron-header {
+    min-height: 500px;
+  }
+  .apron-header .main-photo {
+    display: none;
+  }
+  .terms {
+    margin-bottom: 30px;
+  }
+  .terms .body {
+    min-height: 200px;
+  }
+  .request .promo {
+    position: relative;
+  }
+}
