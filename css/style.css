@@ -6729,7 +6729,7 @@ button.close {
   border-top: 8px solid #000;
 }
 .apron-alert {
-  position: absolute;
+  position: relative;
   width: 100%;
   top: -30px;
   font-size: 24px;
@@ -6799,7 +6799,7 @@ button.close {
   width: 152px;
   height: 59px;
   background: url('../img/logo.png') 0 0 no-repeat;
-  z-index: 9999;
+  z-index: 9998;
 }
 .apron-header .title {
   font-size: 80px;
