@@ -6767,20 +6767,22 @@ button.close {
 .tel {
   font-size: 24px;
   position: relative;
+  padding-left: 26px;
 }
 .tel:before {
   content: "";
   display: block;
   position: absolute;
-  top: 0;
+  left: 0;
+  bottom: 5px;
   width: 20px;
-  height: 20px;
-  background: url('../img/phone-icon.svg') 0 0 no-repeat;
+  height: 22px;
+  background: url('../img/phone-icon.png') 0 0 no-repeat;
 }
 .apron-header {
   margin: 30px 0 0 0;
   position: relative;
-  min-height: 620px;
+  min-height: 622px;
 }
 .apron-header .main-photo {
   position: absolute;
@@ -6789,6 +6791,15 @@ button.close {
   width: 700px;
   height: 650px;
   background: url('../img/main-photo.jpg') 0 0 no-repeat;
+}
+.apron-header .logo {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 152px;
+  height: 59px;
+  background: url('../img/logo.png') 0 0 no-repeat;
+  z-index: 9999;
 }
 .apron-header .title {
   font-size: 80px;
@@ -6801,6 +6812,7 @@ button.close {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 40px;
 }
 .gift {
   padding: 12px 20px;
@@ -7041,13 +7053,22 @@ button.close {
   .apron-header .main-photo {
     left: -150px;
   }
+  .gift {
+    right: -50px;
+  }
 }
 @media (max-width: 767px) {
   .apron-header {
-    min-height: 500px;
+    min-height: 550px;
+  }
+  .apron-header .logo {
+    position: relative;
   }
   .apron-header .main-photo {
     display: none;
+  }
+  .gift {
+    top: -40px;
   }
   .terms {
     margin-bottom: 30px;
