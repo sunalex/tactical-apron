@@ -6842,6 +6842,15 @@ button.close {
 .terms .header .digit {
   font-size: 120px;
 }
+.terms .header .shipping-box {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  margin-left: -131px;
+  width: 262px;
+  height: 150px;
+  background: url('../img/shipping-box.png') 0 0 no-repeat;
+}
 .terms .body {
   padding: 30px;
   min-height: 340px;
