@@ -193,7 +193,7 @@
 
     .shipping-box {
       position: absolute;
-      top: 60px;
+      top: -20px;
       left: 50%;
       margin-left: -131px;
       width: 262px;
@@ -203,14 +203,14 @@
   }
   .body {
     padding: 30px;
-    min-height: 340px;
+    min-height: 330px;
     background: #fff;
 
     .title {
       font-size: 40px;
       font-weight: 600;
       text-transform: uppercase;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .note {
@@ -223,6 +223,25 @@
       font-size: 16px;
       font-weight: 600;
       text-transform: uppercase;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: @line-height-computed;
+
+      li {
+        position: relative;
+        line-height: 1.75;
+      }
+
+      li:before {
+        content: "•";
+        position: absolute;
+        top: -10px;
+        margin-left: -(@line-height-computed);
+        font-size: 24px;
+        color: #e06662;
+      }
     }
   }
 }

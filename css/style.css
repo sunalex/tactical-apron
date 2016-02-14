@@ -6946,7 +6946,7 @@ button.close {
 }
 .terms .header .shipping-box {
   position: absolute;
-  top: 60px;
+  top: -20px;
   left: 50%;
   margin-left: -131px;
   width: 262px;
@@ -6955,14 +6955,14 @@ button.close {
 }
 .terms .body {
   padding: 30px;
-  min-height: 340px;
+  min-height: 330px;
   background: #fff;
 }
 .terms .body .title {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .terms .body .note {
   font-size: 24px;
@@ -6973,6 +6973,22 @@ button.close {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.terms .body ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.terms .body ul li {
+  position: relative;
+  line-height: 1.75;
+}
+.terms .body ul li:before {
+  content: "•";
+  position: absolute;
+  top: -10px;
+  margin-left: -20px;
+  font-size: 24px;
+  color: #e06662;
 }
 .request {
   background: #5a6384 url('../img/camuflage-bg.jpg') 50px 0 repeat-x;
