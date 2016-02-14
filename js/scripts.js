@@ -56,11 +56,6 @@ $(document).ready(function () {
                         $('.modal').modal('hide');
 
                         $('.alert').show();
-
-                        $(function () {
-                            $("html, body").animate({ scrollTop: 0 }, "slow");
-                            return false;
-                        });
                     });
                 });
             }
