@@ -6766,6 +6766,16 @@ button.close {
 }
 .tel {
   font-size: 24px;
+  position: relative;
+}
+.tel:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: url('../img/phone-icon.svg') 0 0 no-repeat;
 }
 .apron-header {
   margin: 30px 0 0 0;
@@ -6811,6 +6821,13 @@ button.close {
 }
 .video .youtube {
   margin: 30px auto;
+}
+.video .title {
+  background: #eeeeee;
+  padding: 30px 20px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .features {
   margin-top: 50px;
@@ -6967,6 +6984,8 @@ button.close {
   position: absolute;
   top: -50px;
   padding: 30px 20px;
+  width: 350px;
+  box-sizing: border-box;
 }
 .request .promo .title {
   font-size: 100px;
@@ -6979,6 +6998,12 @@ button.close {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.request .price {
+  width: 350px;
+  box-sizing: border-box;
+  background: #eeeeee;
+  padding: 10px;
 }
 .request .error {
   color: #fff;

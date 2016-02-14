@@ -28,7 +28,7 @@
     position: relative;
 
     &:before {
-      content:"";
+      content: "";
       display: block;
       position: absolute;
       width: 100%;
@@ -46,6 +46,17 @@
 
 .tel {
   font-size: 24px;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top:  0;
+    width: 20px;
+    height: 20px;
+    background: url('../img/phone-icon.svg') 0 0 no-repeat;
+  }
 }
 
 .apron-header {
@@ -95,6 +106,15 @@
   .youtube {
     margin: 30px auto;
   }
+
+  .title {
+    background: @body-bg;
+    padding: 30px 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
 }
 
 .features {
@@ -217,6 +237,8 @@
     position: absolute;
     top: -50px;
     padding: 30px 20px;
+    width: 350px;
+    box-sizing: border-box;
 
     .title {
       font-size: 100px;
@@ -231,6 +253,13 @@
       font-weight: 600;
       text-transform: uppercase;
     }
+  }
+
+  .price {
+    width: 350px;
+    box-sizing: border-box;
+    background: @body-bg;
+    padding: 10px;
   }
 
   .error {
