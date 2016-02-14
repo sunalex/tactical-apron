@@ -115,8 +115,9 @@ output {
   display: block;
   width: 100%;
   height: @input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
-  padding: @padding-base-vertical @padding-base-horizontal;
-  font-size: @font-size-base;
+  padding: @input-padding-base @input-padding-base * 2;
+  font-size: @input-size-base;
+  font-weight: @input-font-weight;
   line-height: @line-height-base;
   color: @input-color;
   background-color: @input-bg;
