@@ -67,4 +67,13 @@ $(document).ready(function () {
         });
     });
 
+
+        $('.to-bottom').click(function(){
+
+            $('html, body').animate({
+                scrollTop: $(".request").offset().top
+            }, 300);
+
+        });
+
 });
