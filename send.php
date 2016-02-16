@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
         $phone = $_POST['phone'];
         $city = $_POST['city'];
         $address = $_POST['address'];
-        $to = 'sunalex@sunalex.ru'; //TODO
+        $to = 'monoposhiv@gmail.com'; //TODO
         $subject = 'Заказ на тактический передник!';
         $message = 'Имя: '.$name. ', Телефон: '.$phone. ', Время: ' .$time. ', Город: ' .$city. ', Адрес: ' .$address;
 
