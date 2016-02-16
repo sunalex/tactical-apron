@@ -7089,6 +7089,9 @@ button.close {
     transform: none;
     width: 200px;
   }
+  .apron-header {
+    min-height: 600px;
+  }
   .apron-header .title {
     font-size: 50px;
   }
