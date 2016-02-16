@@ -7086,7 +7086,10 @@ button.close {
   .gift {
     position: relative;
     top: 20px;
-    transform: none;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
     width: 200px;
   }
   .apron-header {
